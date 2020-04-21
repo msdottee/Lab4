@@ -68,6 +68,8 @@ public class TableOfPowers {
 
 			}
 		}
+		
+		scnr.close();
 
 	}
 
