@@ -59,7 +59,9 @@ public class TableOfPowers {
 
 			System.out.print("Continue? (y/n)");
 			response = scnr.next();
-
+			
+			System.out.println();
+			
 			if (response.equalsIgnoreCase("n")) {
 				calculations = false;
 				System.out.println("Thanks for learning your sqaures and cubes.");
